@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: white;
+  width: 100%;
+}
+.header {
+  margin-top: 100px;
+}
+#lists {
+  margin-top: 50px;
+  margin-left: -201px;
+}
+button {
+  margin-left: 30px;
+}
+.ourWork {
+  background-color: #d4adfc;
+  text-align: center;
+  width: 30%;
+  margin-left: 500px;
+  border-radius: 10px;
+}
