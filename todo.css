@@ -5,21 +5,54 @@ body {
 .container {
   background-color: white;
   width: 100%;
+  text-align: center;
 }
 .header {
   margin-top: 100px;
 }
+h2 {
+  text-align: center;
+}
 #lists {
   margin-top: 50px;
-  margin-left: -201px;
+  float: left;
+}
+ul {
+  margin-top: 10px;
+}
+ul.button {
+  margin-left: 20px;
 }
 button {
-  margin-left: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px;
 }
+button:hover {
+  background-color: #d4adfc;
+}
+
 .ourWork {
   background-color: #d4adfc;
   text-align: center;
   width: 30%;
   margin-left: 500px;
   border-radius: 10px;
+  height: 500px;
+}
+#myInput {
+  border-radius: 5px;
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+}
+.addBtn {
+  padding: 10px;
+  background: white;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
 }

@@ -13,7 +13,7 @@ function newElement() {
     taskLabel.textContent = myInput.value;
 
     let deleteButton = document.createElement("button");
-    deleteButton.textContent = "delete";
+    deleteButton.textContent = "Delete";
 
     deleteButton.addEventListener("click", function () {
       lists.removeChild(newTask);
