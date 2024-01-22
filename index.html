@@ -11,16 +11,35 @@
     <div id="list" class="header">
         <h2 style="margin:5px">My To Do List</h2>
         <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
+        <button onclick="newElement()" class="addBtn">Add</button>
     </div>
 
     <ul id="lists">
-        <li>Pray</li>
-        <li class="checked">Lay the bed</li>
-        <li>Go to work</li>
-        <li>Call Ikoyi for a meeting</li>
-        <li>Pick up my package</li>
-        <li>Check my mail</li>
+        <div class="checkbox-container">
+            <input type="checkbox" id="task1" class="checkbox">
+            <label for="task1">Lay the bed</label>
+            <button class="delete-btn" onclick="deleteTask('task1')">Delete</button>
+            <br>
+
+            <input type="checkbox" id="task2" class="checkbox">
+            <label for="task2">Go to work</label>
+            <button class="delete-btn" onclick="deleteTask('task2')">Delete</button>
+            <br>
+
+            <input type="checkbox" id="task3" class="checkbox">
+            <label for="task3">Call Ikoyi</label>
+            <button class="delete-btn" onclick="deleteTask('task3')">Delete</button>
+            <br>
+
+            <input type="checkbox" id="task4" class="checkbox">
+            <label for="task4">pick up my package</label>
+            <button class="delete-btn" onclick="deleteTask('task4')">Delete</button>
+            <br>
+
+            <input type="checkbox" id="task5" class="checkbox">
+            <label for="task5">check my mail</label>
+            <button class="delete-btn" onclick="deleteTask('task5')">Delete</button>
+        </div>
     </ul>
 </body>
 
