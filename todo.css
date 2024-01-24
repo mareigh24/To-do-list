@@ -1,11 +1,9 @@
-body {
+* {
   margin: 0;
   box-sizing: border-box;
 }
-.container {
-  background-color: white;
+body {
   width: 100%;
-  text-align: center;
 }
 .header {
   margin-top: 100px;
@@ -32,14 +30,16 @@ button:hover {
   background-color: #d4adfc;
 }
 
-.ourWork {
+.parent {
   background-color: #d4adfc;
   text-align: center;
-  width: 30%;
-  margin-left: 500px;
+  width: 30vw;
+  min-height: 10vh;
   border-radius: 10px;
+  margin: 50px auto;
   height: 500px;
 }
+
 #myInput {
   border-radius: 5px;
   width: 75%;
@@ -55,4 +55,10 @@ button:hover {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .parent {
+    width: 90%;
+  }
 }
